@@ -12,6 +12,7 @@
 		8FD6ACCE1A7BF518006527CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FD6ACCD1A7BF518006527CE /* Images.xcassets */; };
 		8FD6ACD11A7BF518006527CE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FD6ACCF1A7BF518006527CE /* MainMenu.xib */; };
 		8FD6ACDD1A7BF519006527CE /* BLETESTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD6ACDC1A7BF519006527CE /* BLETESTTests.m */; };
+		8FD6ACE71A7BF55D006527CE /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FD6ACE61A7BF55D006527CE /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		8FD6ACD61A7BF519006527CE /* BLETESTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLETESTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FD6ACDB1A7BF519006527CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FD6ACDC1A7BF519006527CE /* BLETESTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLETESTTests.m; sourceTree = "<group>"; };
+		8FD6ACE61A7BF55D006527CE /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FD6ACE71A7BF55D006527CE /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +61,7 @@
 		8FD6ACBA1A7BF518006527CE = {
 			isa = PBXGroup;
 			children = (
+				8FD6ACE61A7BF55D006527CE /* CoreBluetooth.framework */,
 				8FD6ACC51A7BF518006527CE /* BLETEST */,
 				8FD6ACD91A7BF519006527CE /* BLETESTTests */,
 				8FD6ACC41A7BF518006527CE /* Products */,
